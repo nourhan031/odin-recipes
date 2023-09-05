@@ -1,4 +1,5 @@
 # odin-recipes
+The Odin Project: Assignment #1
+HTML website for showcasing recipes
 
-version 1: 5.9.23
-implementing some of the HTML i learned so far by making a basic recipe website.
+Live site: https://nourhan031.github.io/odin-recipes/
