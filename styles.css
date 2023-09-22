@@ -1,0 +1,57 @@
+.mainHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    /* border: 4px rgb(82, 82, 221) solid; */
+    margin: auto;
+}
+
+.mainText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+
+.mainImg {
+    /*margin: auto;*/
+    height: 10cm;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    /* transform: skew(-10deg); */
+    /* Adjust the skew angle as needed */
+    margin: 0 10px;
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+
+} */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */

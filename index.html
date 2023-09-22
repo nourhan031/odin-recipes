@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <style>
-        h1 {text-align: center;}
-    </style>
+    <!-- <style>
+        h1 {
+            text-align: center;
+        }
+    </style> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick and Easy Recipes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1><b>Quick and Easy Recipes</b></h1>
-    <h2>My personal favorite quick and easy recipes for breakfast and dinner :D </h2>
-    <ul>
-        <li><a href="recipes/chocolateoatmeal.html" target="_blank" rel="noopener noreferrer">Chocolate Oatmeal</a></li>
-        <li><a href="recipes/fruitandyogurtsmoothie.html" target="_blank" rel="noopener noreferrer">Fruit and Yogurt Smoothie</a></li>
-        <li><a href="recipes/sweetandsournoodles.html" target="_blank" rel="noopener noreferrer">Sweet and Sour Noodles</a></li>
+    <div class="container" id="container">
+        <div class="menu-card">
+            <img class="mainImg" src="images/home" alt="salads">
+            <h1 class="mainHeader"><b>Quick and Easy Recipes</b></h1>
+            <h2 class="mainText">My personal favorite quick and easy recipes for breakfast and dinner :D </h2>
 
-      </ul>
-</body>
+            <div class="row">
+                <div class="column">
+                    <figure>
+                        <a href="recipes/chocolateoatmeal.html" target="_blank"><img src="images/chocoatmeal.jpg"
+                                style="height: 100px; width: 100px; border-radius: 50%;"></a>
+                        <figcaption>Chocolate Oatmeal</figcaption>
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure>
+                        <a href="recipes/fruitandyogurtsmoothie.html" target="_blank"><img src="images/fruitandyog"
+                                style="height: 100px; width: 100px; border-radius: 50%;"></a>
+                        <figcaption>Fruit and Yogurt Smoothie</figcaption>
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure>
+                        <a href="recipes/sweetandsournoodles.html" target="_blank"><img src="images/sandsnoodles"
+                                style="height: 100px; width: 100px; border-radius: 50%;"></a>
+                        <figcaption>Sweet and Sour Noodles</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </html>
