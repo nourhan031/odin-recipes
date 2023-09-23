@@ -32,12 +32,13 @@ body {
     box-sizing: border-box;
 }
 
-.column {
+/* .column {
     /* transform: skew(-10deg); */
-    /* Adjust the skew angle as needed */
-    /* originally : margin: 0 10px; */
-    margin: auto;
-}
+/* Adjust the skew angle as needed */
+/* originally : margin: 0 10px; */
+/* margin: auto;
+} */
+
 
 /* .column {
     float: left;
@@ -45,15 +46,25 @@ body {
     padding: 40px;
 
 } */
-
+/* 
 .row {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* .row::after {
     content: "";
     clear: both;
     display: table;
 } */
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    margin: 0 50px;
+    text-align: center;
+}
